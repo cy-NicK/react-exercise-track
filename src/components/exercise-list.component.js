@@ -39,6 +39,7 @@ export default class ExerciseList extends Component{
         this.setState({
             exercises:this.state.exercise.filter(el=>el._id!==id)
         })
+        window.location='/';
     }
 
     exerciseList(){
